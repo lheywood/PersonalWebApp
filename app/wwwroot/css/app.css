@@ -18,9 +18,7 @@ a, .btn-link {
     border-color: #1861ac;
 }
 
-.content {
-    padding-top: 2rem;
-}
+
 
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
@@ -64,10 +62,13 @@ a, .btn-link {
     }
 
 .masthead {
-    height: 100vh;
+    height: calc(100vh - 192px);
     min-height: 500px;
-    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
+
+.content {
+    margin-top:70px;
+}
+
+
+
